@@ -7,7 +7,10 @@
 printers=(eb325bw1 eb325bw2 eb325clr1 eb423bw1 eb423clr1 fab5517clr1 \
           fab5517bw1 fab5517bw2 fab6001bw1 fab6019bw1 fab8201bw1 fabc8802bw1) 
 
+
+#Code notes: Incorperate the time stamp at the beginning of the file in bash
 for printer in "${printers[@]}"
 do
-    echo "lpr -P $printer filetest.txt"
+    echo 'ls -la'
+    #echo "lpr -P $printer ../printPage.py"
 done
