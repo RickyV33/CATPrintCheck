@@ -2,6 +2,7 @@
 Computer Action Team 2014
 This program sends a page of ASCII art to the listed printers in order to check the printers functionality and ink level."""
 
+#! /usr/bin/python
 import os
 import sys
 import textFileEditor as text
